@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}    
+body{
+    background-image: url("https://raw.githubusercontent.com/iT4lloEdw/PHP/main/Sem-Título-1.jpg");
+    background-position: 50% 15%;
+    color: white;
+    font-family: arial;
+    
+
+}    
+input{
+
+    display: block;
+    height: 55px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.09);
+    color: white;
+}
+
+div#corpo-form{
+    /*background-color: yellow;\*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+div#corpo-form-Cad{
+    /*background-color: yellow;\*/
+    width: 420px;
+    margin: 50px auto 0px auto;
+}    
+
+
+div#corpo-form h1, div#corpo-form-Cad h1{
+    text-align: center;
+    padding: 20px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+
+}
+
+::-webkit-input-placeholder{
+	color: #fff;
+}
+::-moz-placeholder{
+	color: #fff;
+}    
